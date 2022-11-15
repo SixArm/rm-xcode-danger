@@ -1,0 +1,15 @@
+\rm -rf /Applications/Xcode.app
+
+\rm -rf ~/Applications/Xcode.app
+
+\rm -rf /Library/Developer/CoreSimulator
+\rm -rf /Library/Developer/Xcode
+\rm -rf /Library/Developer/XCPGDevices
+\rm -rf /Library/Developer/XCTestDevices
+\rm -rf /Library/Developer/**/*
+
+\rm -rf ~/Library/Developer/CoreSimulator
+\rm -rf ~/Library/Developer/Xcode
+\rm -rf ~/Library/Developer/XCPGDevices
+\rm -rf ~/Library/Developer/XCTestDevices
+\rm -rf ~/Library/Developer/**/*
