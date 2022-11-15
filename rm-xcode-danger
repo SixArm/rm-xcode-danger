@@ -1,15 +1,30 @@
-\rm -rf /Applications/Xcode.app
+rm -rf  /Applications/Xcode.app
+rm -rf ~/Applications/Xcode.app
 
-\rm -rf ~/Applications/Xcode.app
+rm -rf  /Library/MobileDevice
+rm -rf ~/Library/MobileDevice
 
+sudo rm -rf  /Library/Preferences/com.apple.dt.Xcode.plist
+sudo rm -rf ~/Library/Preferences/com.apple.dt.Xcode.plist
+
+sudo rm -rf  /Library/Preferences/com.apple.dt.xctest.automation-mode.plist
+sudo rm -rf ~/Library/Preferences/com.apple.dt.xctest.automation-mode.plist
+
+\rm -rf /Library/Developer/CoreSimulator/Caches/**/* 
 \rm -rf /Library/Developer/CoreSimulator
 \rm -rf /Library/Developer/Xcode
 \rm -rf /Library/Developer/XCPGDevices
 \rm -rf /Library/Developer/XCTestDevices
 \rm -rf /Library/Developer/**/*
 
+\rm -rf ~/Library/Developer/CoreSimulator/Caches/**/*
 \rm -rf ~/Library/Developer/CoreSimulator
 \rm -rf ~/Library/Developer/Xcode
 \rm -rf ~/Library/Developer/XCPGDevices
 \rm -rf ~/Library/Developer/XCTestDevices
 \rm -rf ~/Library/Developer/**/*
+
+\rm -rf /System/Library/Receipts/com.apple.pkg.XcodeSystemResources.plist
+\rm -rf /System/Library/Receipts/com.apple.pkg.XcodeExtensionSupport.plist
+\rm -rf /System/Library/Receipts/com.apple.pkg.XcodeSystemResources.bom
+\rm -rf /System/Library/Receipts/com.apple.pkg.XcodeExtensionSupport.bom
